@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main4Activity" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="125dp"
+            android:layout_height="90dp"
+            android:gravity="center"
+            android:text="Water" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="125dp"
+            android:layout_height="90dp"
+            android:onClick="toleftwater"
+            android:text="Edit" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="155dp"
+            android:layout_height="90dp"
+            android:gravity="center"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="125dp"
+            android:gravity="center"
+            android:layout_height="90dp"
+            android:text="Ground Floor" />
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="125dp"
+            android:layout_height="90dp"
+            android:onClick="toleftground"
+            android:text="Edit" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:gravity="center"
+            android:layout_width="155dp"
+            android:layout_height="90dp"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="125dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="90dp"
+            android:text="First floor" />
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="125dp"
+            android:layout_height="90dp"
+            android:onClick="toleftfirst"
+            android:text="Edit" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:gravity="center"
+            android:layout_width="155dp"
+            android:layout_height="90dp"
+            android:text="" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="125dp"
+            android:layout_gravity="center"
+            android:layout_height="90dp"
+            android:gravity="center"
+            android:text="Second Floor" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="125dp"
+            android:layout_height="90dp"
+            android:onClick="toleftsecond"
+            android:text="Edit" />
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="155dp"
+            android:layout_height="90dp"
+            android:gravity="center"
+            android:text="" />
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="125dp"
+            android:gravity="center"
+            android:layout_height="90dp"
+            android:text="Third Floor" />
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="125dp"
+            android:layout_height="90dp"
+            android:onClick="toleftthird"
+            android:text="Edit" />
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="155dp"
+            android:gravity="center"
+            android:layout_height="90dp"
+            android:text="" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button5"
+
+        android:onClick="backhomechoose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+
+</LinearLayout>

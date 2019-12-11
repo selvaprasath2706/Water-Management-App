@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "874229094732",
+    "firebase_url": "https://database-8e545.firebaseio.com",
+    "project_id": "database-8e545",
+    "storage_bucket": "database-8e545.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874229094732:android:b872bc8cd3c90c7e",
+        "android_client_info": {
+          "package_name": "com.example.hostel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874229094732-57t3506uvpo8elpjbsdo75u9gj15sr3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdTzoiAfzfabOkLpz743e9YnD7ma-g5yA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874229094732-57t3506uvpo8elpjbsdo75u9gj15sr3a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
